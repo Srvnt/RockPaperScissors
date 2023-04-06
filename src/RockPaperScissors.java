@@ -46,6 +46,7 @@ public class RockPaperScissors {
             String playAgain = scanner.nextLine();
 
             if (!playAgain.equals("y")) {
+                scanner.close();
                 break;
             }
         }
